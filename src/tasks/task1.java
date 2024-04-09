@@ -8,6 +8,9 @@ public class task1 {
     /**
      * This method finds the minimum value among a series of integers entered by the user.
      * Time complexity: O(n), where n is the input number.
+     * The loop runs from 0 to the given number - 1,
+     * resulting in linear time complexity.
+     *
      * @param sc Scanner object for user input
      */
     public static void solution(Scanner sc) {

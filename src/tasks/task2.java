@@ -6,6 +6,8 @@ public class task2 {
     /**
      * This method calculates the average of 'n' numbers entered by the user.
      * Time complexity: O(n), where n is the input number.
+     * The loop runs from 0 to the given number,
+     * resulting in linear time complexity.
      *
      * @param sc Scanner object for user input
      */
