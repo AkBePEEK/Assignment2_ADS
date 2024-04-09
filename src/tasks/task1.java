@@ -1,9 +1,9 @@
-import java.io.IOException;
+package tasks;
+
 import java.util.Scanner;
 
 public class task1 {
-    public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
+    public static void solution(Scanner sc){
         int n = sc.nextInt(), b = sc.nextInt();
         for (int i=0; i<n-1; i++){
             int m = sc.nextInt();
